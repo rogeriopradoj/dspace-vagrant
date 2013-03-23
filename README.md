@@ -12,26 +12,8 @@ Install [Vagrant](http://vagrantup.com) from [package](http://downloads.vagrantu
 
 Download/clone [DSpace VM](https://github.com/lwalley/dspacevm):
 
-    $ git clone git@github.com:lwalley/dspacevm.git
-    $ cd dspacevm/
-
-Install bundler gem:
-
-    $ gem install bundler
-
-Optionally configure bundler to pass options to chef install:
-
-    $ bundle config build.chef --no-ri --no-rdoc
-
-Install gems:
-
-    $ bundle install
-
-Download cookbooks with librarian-chef:
-
-    $ librarian-chef install
-
-Optionally override cookbook attributes in Vagrantfile.
+    $ git clone git@github.com:rogeriopradoj/dspace-vagrant.git
+    $ cd dspace-vagrant/
 
 Create and provision virtual machine with Vagrant:
 
